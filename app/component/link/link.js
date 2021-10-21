@@ -1,0 +1,5 @@
+// export const link = 'http://77.68.127.235:5000/'
+export const link  ='http://dc09-115-186-169-21.ngrok.io/'
+export const vendors = link + 'customer/getLocations'
+export const vendorlist = link + 'item/getItemsByVendor?vendorId='
+export const eventV = link + 'customer/getVendorsForEvent?eventId='
