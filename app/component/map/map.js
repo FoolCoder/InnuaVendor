@@ -16,7 +16,6 @@ import AsyncStorage from '@react-native-community/async-storage'
 import point from '../../assets/point.png'
 import { link } from '../link/link'
 
-const apikey = 'AIzaSyA-_ESKOszOV6bSzAqb6frFWMZqnLeQj1U'
 export default function Map({ navigation }) {
     const [region, setregion] = useState({
         latitude: 37.78825,
